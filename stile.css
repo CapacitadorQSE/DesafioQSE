@@ -1,0 +1,55 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0085C7, #FFD700); /* Degradê entre azul e amarelo */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+/* Estilo para o logotipo */
+.logo-container img {
+  max-width: 150px; /* Ajuste este valor conforme necessário */
+  height: auto; /* Mantém a proporção do logotipo */
+}
+
+.maratona-text {
+  font-size: 24px; /* Tamanho da fonte para o texto "Maratona BPF" */
+  color: #ffffff; /* Cor branca */
+  margin-top: 10px; /* Espaço acima do texto */
+}
+
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+.training-box {
+  background-color: rgba(0, 0, 0, 0.47); /* Preto com 47% de opacidade */
+  border: 2px solid #ffffff; /* Contorno branco */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+
+.test-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FF4C4C; /* Vermelho */
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.test-button:hover {
+  background-color: #ffffff;
+  color: #FF4C4C;
+}
