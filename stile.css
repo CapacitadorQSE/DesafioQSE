@@ -14,9 +14,9 @@ header {
 }
 
 .logo-container img {
-  max-width: 150px;
+  max-width: 250px;
   height: auto;
-  border: 5px solid #FFFFFF; /* Borda branca para destacar o logotipo */
+  /*border: 5px solid #FFFFFF; /* Borda branca para destacar o logotipo */
   border-radius: 50%; /* Deixa o logotipo em formato circular */
 }
 
