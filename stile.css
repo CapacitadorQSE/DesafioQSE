@@ -1,24 +1,31 @@
+/* Novo estilo CSS para tema das Olimpíadas */
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #0085C7, #FFD700); /* Degradê entre azul e amarelo */
+  background: linear-gradient(to bottom, #4CAF50, #FFEB3B); /* Degradê entre verde e amarelo */
 }
 
 header {
   text-align: center;
   padding: 20px;
+  background-color: #FF5722; /* Cor laranja para destacar o cabeçalho */
 }
-/* Estilo para o logotipo */
+
 .logo-container img {
-  max-width: 150px; /* Ajuste este valor conforme necessário */
-  height: auto; /* Mantém a proporção do logotipo */
+  max-width: 150px;
+  height: auto;
+  border: 5px solid #FFFFFF; /* Borda branca para destacar o logotipo */
+  border-radius: 50%; /* Deixa o logotipo em formato circular */
 }
 
 .maratona-text {
-  font-size: 24px; /* Tamanho da fonte para o texto "Maratona BPF" */
-  color: #ffffff; /* Cor branca */
-  margin-top: 10px; /* Espaço acima do texto */
+  font-size: 28px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  text-transform: uppercase; /* Texto em maiúsculas para dar mais destaque */
+  font-weight: bold; /* Texto em negrito */
 }
 
 main {
@@ -27,11 +34,12 @@ main {
 }
 
 .training-box {
-  background-color: rgba(0, 0, 0, 0.47); /* Preto com 47% de opacidade */
-  border: 2px solid #ffffff; /* Contorno branco */
-  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Preto com 70% de opacidade */
+  border: 3px solid #FFD700; /* Contorno dourado */
+  border-radius: 15px;
   margin-bottom: 20px;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
 }
 
 .video-container {
@@ -40,16 +48,18 @@ main {
 
 .test-button {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #FF4C4C; /* Vermelho */
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
+  padding: 15px 25px;
+  background-color: #2196F3; /* Azul para destaque */
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
 }
 
 .test-button:hover {
-  background-color: #ffffff;
-  color: #FF4C4C;
+  background-color: #FFFFFF;
+  color: #2196F3;
 }
