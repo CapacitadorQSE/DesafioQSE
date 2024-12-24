@@ -1,143 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fábrica do Futuro</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #800000;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        nav {
-            background-color: #333;
-            display: flex;
-            justify-content: center;
-            padding: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .module {
-            margin-bottom: 20px;
-        }
-
-        .module h2 {
-            color: #800000;
-        }
-
-        .module a {
-            display: block;
-            margin: 10px 0;
-            color: #333;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .module a:hover {
-            color: #800000;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
-            background-color: #800000;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-
-        .btn:hover {
-            background-color: #660000;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Fábrica do Futuro</h1>
-        <p>Sustentabilidade e Excelência QSE</p>
-    </header>
+  <!-- Cabeçalho Fixo -->
+  <header>
+    <button id="cta-button">Inscreva-se no Desafio</button>
+  </header>
 
+  <!-- Bloco 1: Sustentabilidade Nível 1 -->
+  <main>
+    <section id="sustentabilidade" class="carousel-section">
+      <h2>Sustentabilidade Nível 1</h2>
+      <div class="carousel">
+        <div class="carousel-item">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+          <p>Título do Vídeo 1</p>
+        </div>
+        <div class="carousel-item">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+          <p>Título do Vídeo 2</p>
+        </div>
+        <!-- Adicione mais itens conforme necessário -->
+      </div>
+    </section>
+
+    <!-- Bloco 2: Boas Práticas de Fabricação -->
+    <section id="boas-praticas" class="carousel-section">
+      <h2>Boas Práticas de Fabricação</h2>
+      <div class="carousel">
+        <div class="carousel-item">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+          <p>Título do Vídeo 3</p>
+        </div>
+        <div class="carousel-item">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+          <p>Título do Vídeo 4</p>
+        </div>
+        <!-- Adicione mais itens conforme necessário -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Menu Inferior Fixo -->
+  <footer>
     <nav>
-        <a href="#treinamentos">Treinamentos</a>
-        <a href="#quiz">Quiz</a>
-        <a href="#certificados">Certificados</a>
-        <a href="#contato">Contato</a>
+      <a href="#home">Home</a>
+      <a href="#sustentabilidade">Sustentabilidade</a>
+      <a href="#boas-praticas">Boas Práticas</a>
+      <a href="#formulario">Formulário</a>
     </nav>
+  </footer>
 
-    <div class="container">
-        <section id="treinamentos" class="module">
-            <h2>Módulos de Treinamento</h2>
-            <p>Explore os temas essenciais para construir um futuro sustentável.</p>
-            <a href="https://www.youtube.com/watch?v=bCOaQqS4DQM" target="_blank">Módulo 1: Introdução à Sustentabilidade</a>
-            <a href="https://www.youtube.com/watch?v=61yXXXtEro8" target="_blank">Módulo 2: Gestão de Resíduos no Cotidiano</a>
-            <a href="https://www.youtube.com/watch?v=RgV1DmQg6e8" target="_blank">Módulo 3: Sustentabilidade e Política QSE</a>
-            <a href="https://www.youtube.com/watch?v=If7VNbGatk8" target="_blank">Módulo 4: Economia Circular e Boas Práticas</a>
-        </section>
-
-        <section id="quiz" class="module">
-            <h2>Quiz Interativo</h2>
-            <p>Teste seus conhecimentos e receba seu certificado.</p>
-            <a class="btn" href="#">Acessar o Quiz</a>
-        </section>
-
-        <section id="certificados" class="module">
-            <h2>Certificados</h2>
-            <p>Conclua os treinamentos e receba sua certificação.</p>
-            <a class="btn" href="#">Emitir Certificado</a>
-        </section>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Coca-Cola FEMSA. Todos os direitos reservados.</p>
-    </footer>
+  <script src="script.js"></script>
 </body>
 </html>
